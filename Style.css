@@ -746,7 +746,7 @@ ul div a i {
     border-radius: 50%;
 }
 
-@media screen and (min-width:0px)and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .btn {
         padding: 5px 15px;
         font-size: 0.75em;
@@ -754,15 +754,15 @@ ul div a i {
     }
 
     .section1 {
-        width: 75%;
-    }
-
-    .section1:hover {
         width: 85%;
     }
 
+    .section1:hover {
+        width: 95%;
+    }
+
     ul div a i {
-        font-size: 1.5em;
+        font-size: 1.0em;
         opacity: 0.40;
     }
     .inputr1{
@@ -778,7 +778,7 @@ ul div a i {
     }
 }
 
-@media screen and (min-width:480px)and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .btn {
         padding: 8px 20px;
         font-size: 0.90em;
