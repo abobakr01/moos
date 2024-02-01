@@ -810,6 +810,38 @@ ul div a i {
     }
 }
 
+@media screen and (max-width: 400px) {
+    .btn {
+        padding: 3px 10px;
+        font-size: 0.60em;
+
+    }
+
+    .section1 {
+        width: 90%;
+    }
+
+    .section1:hover {
+        width: 95%;
+    }
+
+    ul div a i {
+        font-size: 0.65em;
+        opacity: 0.40;
+    }
+    .inputr1{
+        width: 75%;
+        height: 40px;
+    }
+    .inputr2{
+        width: 75%;
+        height: 100px;
+    }
+    .sub{
+        width: auto;
+    }
+}
+
 @media screen and (max-width: 1280px) {
     .btn {
         padding: 15px 40px;
